@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="325.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mdp.candyfactory.gui.controllers.FirstViewController">
+   <children>
+      <Button layoutX="98.0" layoutY="47.0" mnemonicParsing="false" onAction="#toUsersView" prefHeight="50.0" prefWidth="130.0" text="Users" />
+      <Button layoutX="98.0" layoutY="138.0" mnemonicParsing="false" onAction="#toProductsView" prefHeight="50.0" prefWidth="130.0" text="Products" />
+      <Button layoutX="73.0" layoutY="340.0" mnemonicParsing="false" onAction="#showNotification" prefHeight="25.0" prefWidth="180.0" text="Promotion" />
+      <Button layoutX="98.0" layoutY="235.0" mnemonicParsing="false" onAction="#toDistributers" prefHeight="50.0" prefWidth="130.0" text="Distributors" />
+   </children>
+</AnchorPane>

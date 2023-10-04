@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mdp.candyfactory.client.controllers.RegisterViewController">
+   <children>
+      <TextField fx:id="companyName" layoutX="111.0" layoutY="91.0" promptText="Company name" />
+      <TextField fx:id="adress" layoutX="111.0" layoutY="175.0" promptText="Adress" />
+      <TextField fx:id="phoneNumber" layoutX="111.0" layoutY="248.0" promptText="Contact phone" />
+      <TextField fx:id="userName" layoutX="348.0" layoutY="91.0" promptText="Username" />
+      <PasswordField fx:id="pass2" layoutX="348.0" layoutY="248.0" promptText="Password" />
+      <PasswordField fx:id="pass" layoutX="348.0" layoutY="175.0" promptText="Password" />
+      <Button layoutX="209.0" layoutY="307.0" mnemonicParsing="false" onAction="#register" prefHeight="25.0" prefWidth="182.0" text="Register" />
+      <Label fx:id="infoLabel" layoutX="97.0" layoutY="369.0" prefHeight="17.0" prefWidth="441.0" />
+      <Label layoutX="215.0" layoutY="31.0" text="Buyer registration">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="27.0" layoutY="21.0" mnemonicParsing="false" onAction="#toLoginView" prefHeight="25.0" prefWidth="50.0" text="Back" />
+   </children>
+</AnchorPane>

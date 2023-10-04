@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="644.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mdp.candyfactory.order.controllers.FirstViewController">
+   <children>
+      <ListView fx:id="orderList" layoutX="149.0" layoutY="64.0" prefHeight="465.0" prefWidth="303.0" />
+      <Label layoutX="166.0" layoutY="22.0" text="Order sender:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="mailLabel" layoutX="262.0" layoutY="24.0" prefHeight="17.0" prefWidth="132.0" />
+      <Button layoutX="461.0" layoutY="284.0" mnemonicParsing="false" onAction="#takeOrder" prefHeight="25.0" prefWidth="132.0" text="Take the order" />
+      <Button layoutX="91.0" layoutY="577.0" mnemonicParsing="false" onAction="#approveOrder" prefHeight="25.0" prefWidth="113.0" text="Approve" />
+      <Button layoutX="405.0" layoutY="577.0" mnemonicParsing="false" onAction="#denyOrder" prefHeight="25.0" prefWidth="113.0" text="Reject" />
+   </children>
+</AnchorPane>

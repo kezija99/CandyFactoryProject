@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="264.0" prefWidth="225.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mdp.candyfactory.distributer.controllers.LoginViewController">
+   <children>
+      <TextField fx:id="nameField" layoutX="38.0" layoutY="72.0" promptText="Enter company name" />
+      <Button layoutX="73.0" layoutY="132.0" mnemonicParsing="false" onAction="#login" prefHeight="25.0" prefWidth="79.0" text="Login" />
+      <Label fx:id="infoLabel" layoutX="38.0" layoutY="212.0" prefHeight="17.0" prefWidth="149.0" />
+      <Label layoutX="58.0" layoutY="27.0" text="Distributor login">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
