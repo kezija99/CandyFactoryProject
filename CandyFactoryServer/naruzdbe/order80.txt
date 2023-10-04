@@ -1,0 +1,8 @@
+ORDER INFO:
+---------------------------------
+ORDER SENDER:aaaaaaa@mail.com
+---------------------------------
+Naziv: product 24 | Kolicina: 10
+Naziv: product 42 | Kolicina: 10
+---------------------------------
+ORDER STATUS: APPROVED

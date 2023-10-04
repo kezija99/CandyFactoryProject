@@ -1,0 +1,7 @@
+INFO O NARUDZBI:
+---------------------------------
+NARUDZBU POSLAO:aaaaa@mail.com
+---------------------------------
+Naziv: product 52 | Kolicina: 11
+---------------------------------
+STATUS NARUDZBE: ODOBRENA
