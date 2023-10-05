@@ -21,7 +21,7 @@ External libraries needed for the project:
 
 -slf4j-simple-1.7.22
 
-Java edition used in project is JavaSE-11 due to compatiility issues with Tomcat server and newer Java editions.
+Java edition used in project is JavaSE-11 due to compatibility issues with Tomcat server and newer Java editions.
 
 To successfuly configure this project, it is also needed to install the following:
 
@@ -31,7 +31,7 @@ To successfuly configure this project, it is also needed to install the followin
 
 -Redis db 3.2.100 (no installation, just extract the zip)
 
-After everything is above is downloaded, installed, jars added to the module paths, steps for starting the projects are below:
+After everything above is downloaded, installed, jars added to the module paths, steps for starting the projects are below:
 
 -Run the redis-server.exe and rabbitmq-server.bat both as administrator
 
